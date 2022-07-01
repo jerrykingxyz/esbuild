@@ -322,6 +322,7 @@ type BuildOptions struct {
 
 	EntryNames string // Documentation: https://esbuild.github.io/api/#entry-names
 	ChunkNames string // Documentation: https://esbuild.github.io/api/#chunk-names
+	MinChunkSize int // Documentation: TODO
 	AssetNames string // Documentation: https://esbuild.github.io/api/#asset-names
 
 	EntryPoints         []string     // Documentation: https://esbuild.github.io/api/#entry-points
